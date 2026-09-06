@@ -20,3 +20,5 @@ el equipo de ingeniería olvidó eliminar algo de la respuesta intermedia.
    
 5.  Ya a en el repetear mandamos la peticion y observamos la respuesta del servidor, que nos dara la bandera.
 ![Captura de pantalla 3](Captura%20de%20pantalla%202026-09-06%20175138.png)
+
+Conclusion: Lo que paso aqui es que hubo una fuga de informacion por comentarios de desarrolladores, es algo muy comun y que hasta el dia de hoy sigue pasando
