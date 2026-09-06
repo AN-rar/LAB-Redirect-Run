@@ -13,5 +13,9 @@ el equipo de ingeniería olvidó eliminar algo de la respuesta intermedia.
 ![Captura de pantalla 1](Captura%20de%20pantalla%202026-09-06%20175028.png)
 
 3. Hablitamos el proxy de burpsuit y interceptamos la peticion.
-4. La peticion la mandamos al repetear para investigarla mejor.
-5. Ya en el repetear mandamos la peticion y observamos la respuesta del servidor, que nos dara la bandera.
+![Captura de pantalla 2](Captura%20de%20pantalla%202026-09-06%20175104.png)
+   
+4.  La peticion la mandamos al repetear para investigarla mejor.
+   
+5.  Ya a en el repetear mandamos la peticion y observamos la respuesta del servidor, que nos dara la bandera.
+![Captura de pantalla 3](Captura%20de%20pantalla%202026-09-06%20175138.png)
