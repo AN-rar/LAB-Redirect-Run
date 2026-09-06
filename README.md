@@ -1,5 +1,6 @@
-*In english:* 
-*Redirect Execution*
+**In english:**
+
+**Redirect Execution**
 
 Vulnerability: Confidential data was leaked in the body of an intermediate redirect response.
 
@@ -24,9 +25,9 @@ the engineering team forgot to remove something from the intermediate response.
 
 Conclusion: What occurred here was an information leak caused by developer comments—a very common issue that persists to this day.
 
-*En español:*
+**En español:**
 
-*Redireccionar ejecución*
+**Redireccionar ejecución**
 
 Vulnerabilidad: Se filtraron datos confidenciales en el cuerpo de una respuesta de redirección intermedia.
 
