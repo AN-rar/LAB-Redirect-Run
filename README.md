@@ -1,4 +1,5 @@
 *Redireccionar ejecución*
+
 Vulnerabilidad: Se filtraron datos confidenciales en el cuerpo de una respuesta de redirección intermedia.
 
 En este laboratorio de WebVerse se uso burpsuit para mayor facilidad
