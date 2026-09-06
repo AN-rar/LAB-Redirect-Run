@@ -1,3 +1,31 @@
+*In english:* 
+*Redirect Execution*
+
+Vulnerability: Confidential data was leaked in the body of an intermediate redirect response.
+
+Burp Suite was used for this WebVerse lab to make the process easier.
+
+Context: Quikpay generates short, easily shareable receipt URLs for merchants.
+When visiting one of these, you are redirected to a purchase thank-you page.
+However, the redirect isn't as seamless as it appears;
+the engineering team forgot to remove something from the intermediate response.
+
+1. Access the lab and open Burp Suite.
+2. On the lab's webpage, click the link labeled: "Live demo shortlink."
+![Screenshot 1](Captura%20de%20pantalla%202026-09-06%20175028.png)
+
+3. Enable the Burp Suite proxy and intercept the request.
+![Screenshot 2](Captura%20de%20pantalla%202026-09-06%20175104.png)
+
+4. Send the request to Repeater for further analysis.
+
+5. Once in Repeater, send the request and observe the server's response, which will reveal the flag.
+![Screenshot 3](Captura%20de%20pantalla%202026-09-06%20175138.png)
+
+Conclusion: What occurred here was an information leak caused by developer comments—a very common issue that persists to this day.
+
+*En español:*
+
 *Redireccionar ejecución*
 
 Vulnerabilidad: Se filtraron datos confidenciales en el cuerpo de una respuesta de redirección intermedia.
